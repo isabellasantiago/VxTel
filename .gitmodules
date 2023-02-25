@@ -1,0 +1,6 @@
+[submodule "api-VxTel"]
+	path = api
+	url = https://github.com/isabellasantiago/api-VxTel.git
+[submodule "web-vxTel"]
+	path = web-vxTel
+	url = https://github.com/isabellasantiago/web-vxTel.git
