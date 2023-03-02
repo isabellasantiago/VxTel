@@ -8,8 +8,8 @@
 
 # Indice
 - [Sobre](#-sobre)
-- [Tecnologias Utilizadas] (#-tecnologias-utilizadas)
-- [Instalação do projeto] (#-instalacao-do-projeto)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Instalação do projeto](#-instalacao-do-projeto)
 
 ## Sobre
 
@@ -31,6 +31,11 @@ O projeto consome uma API própria
 
 - [api-vxTel](https://github.com/isabellasantiago/api-VxTel.git)
 
+A port padrão da API é 3333, caso deseje mudar, no projeto contém um `.env.example`.
+É só trocar o nome do arquivo para `.env` e o valor VITE_NODE_API para o qual desejar.
+
+ps: é necessário que a API esteja rodando na mesma porta que informada no `.env`
+
 ## 🗂 Instalação do projeto
 
 Recomendado instalar o projeto todo pela **workspace (vxTel)**, seguindo README.md da mesma.
@@ -48,7 +53,9 @@ Mas, caso queira instalar apenas o front end:
     # Iniciar o projeto
     $ yarn dev
 ```
+
 O projeto roda na porta 5173, porta padrão do Vite.
+
 ---
 
 Desenvolvido 💜 por Isabella Santiago
