@@ -44,7 +44,7 @@ ps: é necessário que a API esteja rodando na mesma porta que informada no `.en
     # Clonar o repositório
     $ git clone --recurse-submodules https://github.com/isabellasantiago/vxTel.git
     # Entrar no diretório
-    $ vxTel
+    $ cd vxTel
     # Instalar as dependências da api
     $ cd api-vxTel
     $ yarn
