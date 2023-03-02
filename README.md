@@ -50,6 +50,8 @@ ps: é necessário que a API esteja rodando na mesma porta que informada no `.en
     $ yarn
     #Iniciando a API
     $ yarn start:dev
+    # Rodar os testes
+    $ yarn test
 
     #Instalar as dependências do front end
     $ cd web-vxTel
